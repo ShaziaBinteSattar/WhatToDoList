@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4caf50, #00bcd4);
+        }
+        
+        .container {
+            background:linear-gradient(orange, red, green, blue);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.9);
+            width: 600px;
+            margin: 0 20px; /* Left and right margin */
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        .input-group button {
+            padding: 10px;
+            border: none;
+            background: #00bcd4;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .task {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .task button {
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .task .edit {
+            background: #4caf50;
+            color: white;
+            margin-right: 5px;
+        }
+        .task .delete {
+            background: #f44336;
+            color: white;
+        }
+    
